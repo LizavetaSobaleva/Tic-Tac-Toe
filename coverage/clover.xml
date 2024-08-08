@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1723138677251" clover="3.2.0">
+  <project timestamp="1723138677252" name="All files">
+    <metrics statements="45" coveredstatements="45" conditionals="26" coveredconditionals="25" methods="18" coveredmethods="18" elements="89" coveredelements="88" complexity="0" loc="45" ncloc="45" packages="6" files="12" classes="12"/>
+    <package name="src">
+      <metrics statements="19" coveredstatements="19" conditionals="7" coveredconditionals="7" methods="8" coveredmethods="8"/>
+      <file name="globalStyles.js" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/globalStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="ticTacToeMachine.js" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/ticTacToeMachine.js">
+        <metrics statements="18" coveredstatements="18" conditionals="7" coveredconditionals="7" methods="8" coveredmethods="8"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="18" type="stmt"/>
+        <line num="21" count="18" type="stmt"/>
+        <line num="22" count="137" type="stmt"/>
+        <line num="23" count="137" type="cond" truecount="5" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="17" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="69" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="85" count="18" type="stmt"/>
+        <line num="86" count="18" type="stmt"/>
+        <line num="87" count="18" type="stmt"/>
+        <line num="89" count="16" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="95" count="18" type="stmt"/>
+        <line num="96" count="17" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.board">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="Board.jsx" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/components/board/Board.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="9" count="72" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+      <file name="Board.styles.js" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/components/board/Board.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.button">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Button.jsx" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/components/button/Button.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+      </file>
+      <file name="Button.styles.js" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/components/button/Button.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.cell">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Cell.jsx" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/components/cell/Cell.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="75" type="stmt"/>
+      </file>
+      <file name="Cell.styles.js" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/components/cell/Cell.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.gameStatus">
+      <metrics statements="3" coveredstatements="3" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="GameStatus.jsx" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/components/gameStatus/GameStatus.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+      </file>
+      <file name="GameStatus.styles.js" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/components/gameStatus/GameStatus.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages">
+      <metrics statements="12" coveredstatements="12" conditionals="7" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="GamePage.jsx" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/pages/GamePage.jsx">
+        <metrics statements="10" coveredstatements="10" conditionals="7" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="13" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="4" falsecount="1"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="13" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="13" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="25" count="13" type="stmt"/>
+      </file>
+      <file name="GamePage.styles.js" path="/Users/mac/Documents/Projects/game/tic-tac-toe/src/pages/GamePage.styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
